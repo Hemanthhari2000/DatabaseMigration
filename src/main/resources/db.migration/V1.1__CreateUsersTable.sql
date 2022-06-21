@@ -2,4 +2,4 @@ CREATE TABLE users(
     id SERIAL PRIMARY KEY,
     name VARCHAR(50) NOT NULL,
     address VARCHAR(150) NOT NULL
-)
+);

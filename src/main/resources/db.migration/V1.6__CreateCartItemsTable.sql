@@ -1,0 +1,6 @@
+CREATE TABLE cart_items(
+    id SERIAL PRIMARY KEY,
+    cart_id SERIAL NOT NULL FOREIGN KEY REFERENCES carts(id),
+    product_id SERIAL NOT NULL FOREIGN KEY REFERENCES products(id),
+    quantity INT NOT NULL DEFAULT 0
+);
