@@ -1,0 +1,4 @@
+CREATE TABLE carts(
+    id SERIAL PRIMARY KEY,
+    userid SERIAL NOT NULL FOREIGN KEY REFERENCES users(id)
+)
