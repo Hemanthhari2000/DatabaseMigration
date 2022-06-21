@@ -8,4 +8,7 @@ fileignoreconfig:
 - filename: src/main/resources/db.migration/V1.3__RenameNameColumnInUsersTable.sql
   checksum: b588aa5fea0a0669c78c28ddf198f9bdaf7f30683ed2945acd12058724d93acc
 
+- filename: src/main/resources/db.migration/V1.4__AddColumnPrimaryPhoneNumberToUsersTable.sql
+  checksum: 50deb24e3ae4d4fd25f200cff6fb34d92f30f8bd84917b46e08cd81b4cdcf0b3
+
 version: ""
